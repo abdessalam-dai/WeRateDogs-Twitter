@@ -4,7 +4,7 @@
 
 ## Overview
 
-> This is the second project in Udacity's Nanodegree Program for Data Analysis. In this project, I wrangled WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. The Twitter archive is great, but it only contains very basic tweet information. Additional gathering, then assessing and cleaning was required for "Wow!"-worthy analyses and visualizations. I documented my wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries). (Finalized on 20 December 2022).
+This is the second project in Udacity's Nanodegree Program for Data Analysis. In this project, I wrangled WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. The Twitter archive is great, but it only contains very basic tweet information. Additional gathering, then assessing and cleaning was required for "Wow!"-worthy analyses and visualizations. I documented my wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries). (Finalized on 20 December 2022).
 
 ## Data Gathering
 
@@ -51,7 +51,7 @@ After assessing the data, we cleaned the data by defining, coding, and testing. 
 
 We used the following techniques to address the problems we mentioned in the previous section after making copies of the three datasets:
 
->- Removed unnecessary columns.
+- Removed unnecessary columns.
 - Dropped data points for retweets or replies.
 - Records with unusual dog names were deleted.
 - Using the df.apply and pd.to datetime methods, the datatypes of the columns were changed to what they should be.
